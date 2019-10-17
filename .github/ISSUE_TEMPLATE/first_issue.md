@@ -1,5 +1,11 @@
+---
+name: First issue template
+about: The first issue opened as template
+title: ''
+labels: ''
+assignees: ''
 
-
+---
 
 Criar o template https://chrisbobbe.github.io/jekyll-theme-prologue que está neste repositório: https://github.com/chrisbobbe/jekyll-theme-prologue
 
