@@ -9,7 +9,7 @@ jobs:
     - image: circleci/ruby:2.5.1
     steps:
       - checkout
-      - run: gem update --system
+      - run: sudo gem update --system
       - run: gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
