@@ -9,7 +9,6 @@
   
   <!-- Title, description, author -->
   {%- capture _page_title -%}
-    {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
     {{- site.title | default: "Untitled Website" -}}
     {%- if site.subtitle -%}{{- site.subtitle | prepend: ' - ' -}}{%- endif -%}
   {%- endcapture -%}
@@ -45,5 +44,6 @@
   <script src="{{- 'assets/js/util.js' | relative_url -}}" defer></script>
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
   <script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
+  <script src="{{- 'assets/js/scripts.js' | relative_url -}}" defer></script>
 
 </head>
