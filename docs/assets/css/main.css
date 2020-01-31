@@ -730,4 +730,8 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .mt-15 { margin-top: 15px; }
 
+.pl-min-post { padding-left: 1.2em; }
+
+.m-auto { margin: auto; }
+
 /*# sourceMappingURL=main.css.map */
