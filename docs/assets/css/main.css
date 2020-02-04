@@ -730,8 +730,16 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 .mt-15 { margin-top: 15px; }
 
+.ml-20 { margin-left: 20px !important; }
+
 .pl-min-post { padding-left: 1.2em; }
 
 .m-auto { margin: auto; }
+
+.no-bg { background: transparent !important; }
+
+.social_section_body { text-align: center; }
+
+.social_section_body ul { margin: 10px 0 0 0; }
 
 /*# sourceMappingURL=main.css.map */

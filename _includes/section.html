@@ -1,11 +1,12 @@
 {%- comment -%}
   Include vars:
 	title
-  subtitle
+  	subtitle
 	photo
 	photo-alt
 	auto-header
 	content
+	show_social_links_bottom
 {%- endcomment -%}
 
 {%- assign _title = include.title | default: 'Untitled' -%}
@@ -45,3 +46,8 @@
     {{- include.content -}}
   </div>
 </section>
+{%- if include.show_social_links_bottom -%}
+	<div class="social_section_body">
+		{%- include social_icons.html -%}
+	</div>
+{%- endif -%}
