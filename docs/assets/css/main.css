@@ -728,6 +728,8 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   #footer .copyright li { display: block; line-height: 1.25em; border: 0; padding: 0; margin: 1em 0 0 0; }
   #footer .copyright li:first-child { margin-top: 0; } }
 
+.whatsapp { position: fixed; top: 82%; right: 1%; padding: 10px; z-index: 10000000; }
+
 .mt-15 { margin-top: 15px; }
 
 .ml-20 { margin-left: 20px !important; }

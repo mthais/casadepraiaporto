@@ -4,12 +4,16 @@ icon: fa-envelope
 order: 4
 ---
 
+<script src="{{- 'assets/js/jquery.mask.js' | relative_url -}}" defer></script>
+<script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
+
 <p>Entre em contato.</p>
 
 <form method="post" id="formMessage">
   <div class="row">
     <div class="6u 12u$(mobile)"><input type="text" id="name" placeholder="Nome" /></div>
     <div class="6u$ 12u$(mobile)"><input type="email" id="_replyto" placeholder="Email" /></div>
+    <div class="6u$ 12u$(mobile)"><input type="text" class="sp_celphones" id="sp_celphones" placeholder="Telefone" /></div>
     <div class="12u$ mt-15">
       <textarea id="message" placeholder="Mensagem"></textarea>
     </div>
