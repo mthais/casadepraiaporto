@@ -484,9 +484,7 @@ button,
 
 #logo {
     position: inherit;
-    margin-top: 32px;
-    margin-right: 42px;
-    margin-bottom: 1.5em;
+    margin: 32px 40px 1.5em 0px;
     cursor: default;
     a {
         border: 0;
@@ -508,8 +506,7 @@ button,
     }
     .image {
         position: relative;
-        margin-right: 54px;
-        margin-top: 9px;
+        margin: 9px 64px 0px 0px;
     }
 }
 
@@ -744,8 +741,7 @@ button,
     #logo {
         .image {
             position: relative;
-            margin-right: 54px;
-            margin-top: 9px;
+            margin: 9px 64px 0px 0px;
         }
     }
     #nav {
@@ -851,9 +847,7 @@ button,
     }
     #logo {
         position: inherit;
-        margin-top: 32px;
-        margin-right: 42px;
-        margin-bottom: 1.5em;
+        margin: 32px 40px 1.5em 0px;
         cursor: default;
     }
     #nav {
